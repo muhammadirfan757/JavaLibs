@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class ProcessAName5026201113 {
+    public static void main(String[] args){
+        Scanner process = new Scanner(System.in);
+        System.out.println("Type your name = ");
+        String usrname = process.nextLine();
+        int index = usrname.indexOf(" ");
+        String Firstname = usrname.substring(0, index);
+        String Lastname = usrname.substring(index + 1, usrname.length());
+
+        System.out.println("Type your name = " + usrname +
+            "\n" + index +
+            "\n" + "Your name is = " + Lastname + ", " + Firstname.charAt(0) + ".");
+    }
+    
+}
