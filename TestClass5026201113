@@ -1,0 +1,8 @@
+class TestClass5026201113{
+    public static void main(String[] args){
+        ComputeMethods5026201113 ComputeMethods = new ComputeMethods5026201113();
+        System.out.println("Temp in Celcius is " + ComputeMethods.TempCelcius(50));
+        System.out.println("Hypotenuse is " + ComputeMethods.hypotenuse(9,12));
+        System.out.println("The sum of the dice values is " + ComputeMethods.roll());
+    }
+}
